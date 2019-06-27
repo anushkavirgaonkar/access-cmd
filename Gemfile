@@ -35,9 +35,6 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-#make errors better looking
-gem 'better_errors', '~> 2.4'
-
 gem 'bulma-rails', '~> 0.7.5'
 
 group :development, :test do
@@ -48,6 +45,9 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  #make errors better looking
+  gem 'better_errors', '~> 2.4'
+
 end
 
 group :test do
