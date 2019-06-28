@@ -1,0 +1,24 @@
+<% if @command.blank? %>
+<p>There are not any commands currently in the system.</p>
+<% else %>
+<div class="section">
+<h4 class="title"><center>Displaying all commands</center></h4><br>
+<table class="table is-hoverable is-fullwidth" style="text-align: center">
+	<thead>
+		<tr>
+			<th>Command name</th>
+			<th>Command text</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @command.each do |c| %>
+		<tr>
+			<td><%= link_to c.name, {:action => 'show', :id => c.id} %></td>
+			<td><%= c.content %></td>
+		</tr> 
+		<% end %>
+	</tbody>
+</table>
+<% end %>
+</div>
+

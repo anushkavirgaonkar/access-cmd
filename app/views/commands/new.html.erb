@@ -1,0 +1,17 @@
+
+<div class="section">
+	<%= simple_form_for @command do |f| %>
+	<div class="title"><center>Add a command</center></div>
+	  <div class="field">
+	  	<div class="control">
+	  	<%= f.input :name, wrapper: false, input_html: {class: 'input'}, label: 'Name', label_html: {class: 'label'} %>
+	 	</div>
+	  </div>
+	  <div class="field">
+	  	<div class = "control">
+	  	<%= f.input :content, input_html: {class: 'textarea'},wrapper: false, label: 'Command', label_html: {class: 'label'}%>
+	  	</div>
+	  </div>
+	  <%= f.button :submit, 'Add command', class: "button is-primary" %>
+	<% end %>
+</div>

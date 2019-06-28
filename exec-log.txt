@@ -1,0 +1,68 @@
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is D451-DC33
+
+ Directory of C:\Anushka\rubyscripts\access-cmd
+
+06/28/2019  09:29 AM    <DIR>          .
+06/28/2019  09:29 AM    <DIR>          ..
+06/27/2019  02:03 PM               620 .gitignore
+06/27/2019  02:03 PM                10 .ruby-version
+06/27/2019  02:03 PM    <DIR>          app
+06/27/2019  02:03 PM    <DIR>          bin
+06/27/2019  02:03 PM    <DIR>          config
+06/27/2019  02:03 PM               130 config.ru
+06/27/2019  03:51 PM    <DIR>          db
+06/28/2019  10:42 AM                 0 exec-log.txt
+06/27/2019  10:02 PM             2,082 Gemfile
+06/27/2019  04:01 PM             5,453 Gemfile.lock
+06/27/2019  04:03 PM    <DIR>          lib
+06/27/2019  02:05 PM    <DIR>          log
+06/27/2019  02:03 PM                68 package.json
+06/27/2019  02:03 PM    <DIR>          public
+06/27/2019  02:03 PM               227 Rakefile
+06/27/2019  02:03 PM               374 README.md
+06/27/2019  02:03 PM    <DIR>          storage
+06/27/2019  02:03 PM    <DIR>          test
+06/27/2019  02:05 PM    <DIR>          tmp
+06/27/2019  02:03 PM    <DIR>          vendor
+               9 File(s)          8,964 bytes
+              13 Dir(s)  430,248,919,040 bytes free
+'hello' 
+'hello' 
+'hello' 
+Gemfile
+Gemfile.lock
+README.md
+Rakefile
+app
+bin
+config
+config.ru
+db
+exec-log.txt
+lib
+log
+package.json
+public
+storage
+test
+tmp
+vendor
+Gemfile
+Gemfile.lock
+README.md
+Rakefile
+app
+bin
+config
+config.ru
+db
+exec-log.txt
+lib
+log
+package.json
+public
+storage
+test
+tmp
+vendor
