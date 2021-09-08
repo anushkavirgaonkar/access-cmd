@@ -47,7 +47,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   
   #make errors better looking
-  gem 'better_errors', '~> 2.4'
+  gem 'better_errors', '~> 2.8'
 
 end
 
